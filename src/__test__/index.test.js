@@ -8,9 +8,9 @@ test('team create', () => {
     team.addAll('Mary', 'Ivan', 'Ann', 'Elen');
     
     const result = team.toArray();
-    const forHceck = ['Ivan', 'Alex', 'Mary', 'Ann', 'Elen']
+    const forCheck = ['Ivan', 'Alex', 'Mary', 'Ann', 'Elen']
   
-    expect(result).toEqual(forHceck);
+    expect(result).toEqual(forCheck);
   });
 
 test('character already exist', () => {
